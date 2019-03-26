@@ -7,8 +7,8 @@
             "topLevel": false,
             "BOMlist": [],
             "allAtoms": [
-                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}",
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":199,\"y\":150,\"uniqueID\":304931,\"ioValues\":[],\"readmeText\":\"Readme text here\"}"
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":199,\"y\":150,\"uniqueID\":304931,\"ioValues\":[],\"readmeText\":\"Readme text here\"}",
+                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
             ],
             "allConnectors": []
         },
