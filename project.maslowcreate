@@ -7,13 +7,13 @@
             "topLevel": false,
             "BOMlist": [],
             "allAtoms": [
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":115,\"y\":108,\"uniqueID\":184930,\"ioValues\":[],\"readmeText\":\"Each atom has 0 or more inputs and 1 output. \"}",
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":82,\"y\":129,\"uniqueID\":184930,\"ioValues\":[],\"readmeText\":\"Each atom has 0 or more inputs and 1 output. \"}",
+                "{\"atomType\":\"Input\",\"name\":\"Inputs Can Have Names\",\"x\":75,\"y\":182,\"uniqueID\":329492,\"ioValues\":[]}",
                 "{\"atomType\":\"Translate\",\"name\":\"Translate\",\"x\":320,\"y\":74,\"uniqueID\":347747,\"ioValues\":[{\"name\":\"xDist\",\"ioValue\":0},{\"name\":\"yDist\",\"ioValue\":0},{\"name\":\"zDist\",\"ioValue\":0}]}",
                 "{\"atomType\":\"Union\",\"name\":\"Union\",\"x\":536,\"y\":97,\"uniqueID\":386011,\"ioValues\":[]}",
                 "{\"atomType\":\"Intersection\",\"name\":\"Intersection\",\"x\":540,\"y\":172,\"uniqueID\":212092,\"ioValues\":[]}",
                 "{\"atomType\":\"Difference\",\"name\":\"Difference\",\"x\":539,\"y\":223,\"uniqueID\":294532,\"ioValues\":[]}",
-                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}",
-                "{\"atomType\":\"Input\",\"name\":\"Inputs Can Have Names\",\"x\":75,\"y\":182,\"uniqueID\":329492,\"ioValues\":[]}"
+                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
             ],
             "allConnectors": []
         },
@@ -24,15 +24,16 @@
             "topLevel": true,
             "BOMlist": [],
             "allAtoms": [
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":228,\"y\":156,\"uniqueID\":812384,\"ioValues\":[],\"readmeText\":\"Maslow Create is a new kind of CAD program, it is a CAD program which is built on logic instead of drawing. The CAD model is created by connecting logical blocks. Here you can see the most simple form of this where we create a circle, and then connect it to an 'extrude' block which makes it 3D.\"}",
-                "{\"atomType\":\"Circle\",\"name\":\"Circle\",\"x\":319,\"y\":270,\"uniqueID\":159293,\"ioValues\":[{\"name\":\"radius\",\"ioValue\":10},{\"name\":\"max segment size\",\"ioValue\":1}]}",
-                "{\"atomType\":\"Extrude\",\"name\":\"Extrude\",\"x\":438,\"y\":106,\"uniqueID\":858900,\"ioValues\":[{\"name\":\"height\",\"ioValue\":10}]}",
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":685,\"y\":160,\"uniqueID\":804779,\"ioValues\":[],\"readmeText\":\"The logical elements which we can connect together are referred to as 'Atoms'. A number of atom can be joined together to form a new logical element called a 'Molecule'. Double click on a molecule to see and edit it's structure \"}",
-                "{\"atomType\":\"Molecule\",\"name\":\"Molecule\",\"x\":791,\"y\":163,\"uniqueID\":806222,\"BOMlist\":[]}",
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":290,\"y\":69,\"uniqueID\":812384,\"ioValues\":[],\"readmeText\":\"Maslow Create is a new kind of CAD program, it is a CAD program which is built on logic instead of drawing. The CAD model is created by connecting logical blocks. Here you can see the most simple form of this where we create a circle, and then connect it to an 'extrude' block which makes it 3D.\"}",
+                "{\"atomType\":\"Circle\",\"name\":\"Circle\",\"x\":170,\"y\":131,\"uniqueID\":159293,\"ioValues\":[{\"name\":\"radius\",\"ioValue\":10},{\"name\":\"max segment size\",\"ioValue\":1}]}",
+                "{\"atomType\":\"Extrude\",\"name\":\"Extrude\",\"x\":456,\"y\":180,\"uniqueID\":858900,\"ioValues\":[{\"name\":\"height\",\"ioValue\":10}]}",
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":779,\"y\":74,\"uniqueID\":804779,\"ioValues\":[],\"readmeText\":\"The logical elements which we can connect together are referred to as 'Atoms'. A number of atom can be joined together to form a new logical element called a 'Molecule'. Double click on a molecule to see and edit it's structure \"}",
+                "{\"atomType\":\"Molecule\",\"name\":\"Molecule\",\"x\":791,\"y\":166,\"uniqueID\":806222,\"BOMlist\":[]}",
                 "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
             ],
             "allConnectors": [
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":159293,\"ap2ID\":858900}"
+                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":159293,\"ap2ID\":858900}",
+                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"Inputs Can Have Names\",\"ap1ID\":858900,\"ap2ID\":806222}"
             ]
         }
     ]
