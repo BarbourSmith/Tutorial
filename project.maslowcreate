@@ -7,10 +7,14 @@
             "topLevel": true,
             "BOMlist": [],
             "allAtoms": [
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":129,\"y\":79,\"uniqueID\":812384,\"ioValues\":[],\"readmeText\":\"Maslow Create is a new kind of CAD program, it is a CAD program which is built on logic instead of drawing. The CAD model is created by connecting logical blocks.\"}",
-                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":113,\"y\":65,\"uniqueID\":812384,\"ioValues\":[],\"readmeText\":\"Maslow Create is a new kind of CAD program, it is a CAD program which is built on logic instead of drawing. The CAD model is created by connecting logical blocks.\"}",
+                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}",
+                "{\"atomType\":\"Circle\",\"name\":\"Circle\",\"x\":290,\"y\":111,\"uniqueID\":159293,\"ioValues\":[{\"name\":\"radius\",\"ioValue\":10},{\"name\":\"max segment size\",\"ioValue\":1}]}",
+                "{\"atomType\":\"Extrude\",\"name\":\"Extrude\",\"x\":436,\"y\":52,\"uniqueID\":858900,\"ioValues\":[{\"name\":\"height\",\"ioValue\":10}]}"
             ],
-            "allConnectors": []
+            "allConnectors": [
+                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":159293,\"ap2ID\":858900}"
+            ]
         }
     ]
 }
