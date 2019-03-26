@@ -1,1 +1,16 @@
-init
+{
+    "molecules": [
+        {
+            "atomType": "Molecule",
+            "name": "Tutorial",
+            "uniqueID": 465361,
+            "topLevel": true,
+            "BOMlist": [],
+            "allAtoms": [
+                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}",
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":129,\"y\":79,\"uniqueID\":812384,\"ioValues\":[],\"readmeText\":\"Readme text here\"}"
+            ],
+            "allConnectors": []
+        }
+    ]
+}
