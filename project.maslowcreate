@@ -29,8 +29,8 @@
                 "{\"atomType\":\"Extrude\",\"name\":\"Extrude\",\"x\":486,\"y\":157,\"uniqueID\":858900,\"ioValues\":[{\"name\":\"height\",\"ioValue\":10}]}",
                 "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":779,\"y\":74,\"uniqueID\":804779,\"ioValues\":[],\"readmeText\":\"The logical elements which we can connect together are referred to as 'Atoms'. A number of atom can be joined together to form a new logical element called a 'Molecule'. Double click on a molecule to see and edit it's structure \"}",
                 "{\"atomType\":\"Molecule\",\"name\":\"Molecule\",\"x\":791,\"y\":166,\"uniqueID\":806222,\"BOMlist\":[]}",
-                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}",
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":887,\"y\":273,\"uniqueID\":976737,\"ioValues\":[],\"readmeText\":\"Readme text here\"}"
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":887,\"y\":273,\"uniqueID\":976737,\"ioValues\":[],\"readmeText\":\"The area in the lower right corner of the screen contains information about the currently selected atom. Some values may be editable if you click on them\"}",
+                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
             ],
             "allConnectors": [
                 "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":159293,\"ap2ID\":858900}",
