@@ -11,10 +11,10 @@
                 "{\"atomType\":\"Circle\",\"name\":\"Circle\",\"x\":221,\"y\":69,\"uniqueID\":482087,\"ioValues\":[{\"name\":\"radius\",\"ioValue\":5},{\"name\":\"max segment size\",\"ioValue\":1}]}",
                 "{\"atomType\":\"Rectangle\",\"name\":\"Rectangle\",\"x\":219,\"y\":137,\"uniqueID\":716545,\"ioValues\":[{\"name\":\"x length\",\"ioValue\":10},{\"name\":\"y length\",\"ioValue\":10}]}",
                 "{\"atomType\":\"Circle\",\"name\":\"Circle\",\"x\":204,\"y\":215,\"uniqueID\":754711,\"ioValues\":[{\"name\":\"radius\",\"ioValue\":5},{\"name\":\"max segment size\",\"ioValue\":1}]}",
-                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}",
                 "{\"atomType\":\"Translate\",\"name\":\"Translate\",\"x\":340,\"y\":66,\"uniqueID\":765754,\"ioValues\":[{\"name\":\"xDist\",\"ioValue\":0},{\"name\":\"yDist\",\"ioValue\":0},{\"name\":\"zDist\",\"ioValue\":0}]}",
                 "{\"atomType\":\"Translate\",\"name\":\"Translate\",\"x\":345,\"y\":142,\"uniqueID\":595999,\"ioValues\":[{\"name\":\"xDist\",\"ioValue\":0},{\"name\":\"yDist\",\"ioValue\":0},{\"name\":\"zDist\",\"ioValue\":0}]}",
-                "{\"atomType\":\"ShrinkWrap\",\"name\":\"Shrink Wrap\",\"x\":340,\"y\":215,\"uniqueID\":142220,\"ioValues\":[{\"name\":\"2D shape 565345\",\"ioValue\":10},{\"name\":\"2D shape 556552\",\"ioValue\":10}],\"closedSelection\":0}"
+                "{\"atomType\":\"ShrinkWrap\",\"name\":\"Shrink Wrap\",\"x\":340,\"y\":215,\"uniqueID\":142220,\"ioValues\":[{\"name\":\"2D shape 565345\",\"ioValue\":10},{\"name\":\"2D shape 556552\",\"ioValue\":10}],\"closedSelection\":0}",
+                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
             ],
             "allConnectors": [
                 "{\"ap1Name\":\"geometry\",\"ap2Name\":\"2D shape 565345\",\"ap1ID\":754711,\"ap2ID\":142220}"
