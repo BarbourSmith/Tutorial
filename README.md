@@ -24,7 +24,7 @@ Click on the molecule here to see some more examples
 ## Molecules can have names too
 
 
-Readme text here
+One last useful tool to know about is the shrinkwrap atom
 
 
 The area in the lower right corner of the screen contains information about the currently selected atom. Some values may be editable if you click on them
