@@ -7,8 +7,8 @@
             "topLevel": true,
             "BOMlist": [],
             "allAtoms": [
-                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}",
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":129,\"y\":79,\"uniqueID\":812384,\"ioValues\":[],\"readmeText\":\"Readme text here\"}"
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":129,\"y\":79,\"uniqueID\":812384,\"ioValues\":[],\"readmeText\":\"Maslow Create is a new kind of CAD program, it is a CAD program which is built on logic instead of drawing. The CAD model is created by connecting logical blocks.\"}",
+                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
             ],
             "allConnectors": []
         }
