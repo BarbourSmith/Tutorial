@@ -7,8 +7,10 @@
             "topLevel": false,
             "BOMlist": [],
             "allAtoms": [
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":98,\"y\":166,\"uniqueID\":184930,\"ioValues\":[],\"readmeText\":\"Readme text here\"}",
-                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":119,\"y\":167,\"uniqueID\":184930,\"ioValues\":[],\"readmeText\":\"Each atom has 0 or more inputs and 1 output. \"}",
+                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}",
+                "{\"atomType\":\"Circle\",\"name\":\"Circle\",\"x\":291,\"y\":118,\"uniqueID\":889829,\"ioValues\":[{\"name\":\"radius\",\"ioValue\":10},{\"name\":\"max segment size\",\"ioValue\":1}]}",
+                "{\"atomType\":\"Translate\",\"name\":\"Translate\",\"x\":448,\"y\":120,\"uniqueID\":347747,\"ioValues\":[{\"name\":\"xDist\",\"ioValue\":0},{\"name\":\"yDist\",\"ioValue\":0},{\"name\":\"zDist\",\"ioValue\":0}]}"
             ],
             "allConnectors": []
         },
