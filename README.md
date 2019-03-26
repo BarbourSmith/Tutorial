@@ -18,6 +18,12 @@ Each atom has 0 or more inputs and 1 output. 
 A molecule can contain any amount of logic, but only logic attached to the output will be used
 
 
+Here are some more examples
+
+
+## Molecule
+
+
 The area in the lower right corner of the screen contains information about the currently selected atom. Some values may be editable if you click on them
 
 
