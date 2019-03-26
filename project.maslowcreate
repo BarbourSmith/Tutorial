@@ -13,7 +13,7 @@
                 "{\"atomType\":\"Union\",\"name\":\"Union\",\"x\":536,\"y\":97,\"uniqueID\":386011,\"ioValues\":[]}",
                 "{\"atomType\":\"Intersection\",\"name\":\"Intersection\",\"x\":537,\"y\":161,\"uniqueID\":212092,\"ioValues\":[]}",
                 "{\"atomType\":\"Difference\",\"name\":\"Difference\",\"x\":539,\"y\":223,\"uniqueID\":294532,\"ioValues\":[]}",
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":755,\"y\":118,\"uniqueID\":186477,\"ioValues\":[],\"readmeText\":\"Readme text here\"}",
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":755,\"y\":118,\"uniqueID\":186477,\"ioValues\":[],\"readmeText\":\"A molecule can contain any amount of logic, but only logic attached to the output will be used\"}",
                 "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
             ],
             "allConnectors": [
