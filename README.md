@@ -27,7 +27,7 @@ Click on the molecule here to see some more examples
 Another useful tool to know about is the shrink wrap atom. It essentially "shrink wraps" multiple 2D shapes into one
 
 
-Readme text here
+To place your own molecules right click anywhere on the canvas an play around
 
 
 The area in the lower right corner of the screen contains information about the currently selected atom. Some values may be editable if you click on them
