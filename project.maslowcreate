@@ -9,14 +9,16 @@
             "allAtoms": [
                 "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":82,\"y\":129,\"uniqueID\":184930,\"ioValues\":[],\"readmeText\":\"Each atom has 0 or more inputs and 1 output. \"}",
                 "{\"atomType\":\"Input\",\"name\":\"Inputs Can Have Names\",\"x\":75,\"y\":182,\"uniqueID\":329492,\"ioValues\":[]}",
-                "{\"atomType\":\"Translate\",\"name\":\"Translate\",\"x\":320,\"y\":74,\"uniqueID\":347747,\"ioValues\":[{\"name\":\"xDist\",\"ioValue\":0},{\"name\":\"yDist\",\"ioValue\":0},{\"name\":\"zDist\",\"ioValue\":0}]}",
+                "{\"atomType\":\"Translate\",\"name\":\"Translate\",\"x\":320,\"y\":74,\"uniqueID\":347747,\"ioValues\":[{\"name\":\"xDist\",\"ioValue\":0},{\"name\":\"yDist\",\"ioValue\":10},{\"name\":\"zDist\",\"ioValue\":0}]}",
                 "{\"atomType\":\"Union\",\"name\":\"Union\",\"x\":536,\"y\":97,\"uniqueID\":386011,\"ioValues\":[]}",
                 "{\"atomType\":\"Intersection\",\"name\":\"Intersection\",\"x\":540,\"y\":172,\"uniqueID\":212092,\"ioValues\":[]}",
                 "{\"atomType\":\"Difference\",\"name\":\"Difference\",\"x\":539,\"y\":223,\"uniqueID\":294532,\"ioValues\":[]}",
                 "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
             ],
             "allConnectors": [
-                null
+                "{\"ap1Name\":\"number or geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":329492,\"ap2ID\":347747}",
+                "{\"ap1Name\":\"number or geometry\",\"ap2Name\":\"geometry2\",\"ap1ID\":329492,\"ap2ID\":386011}",
+                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry1\",\"ap1ID\":347747,\"ap2ID\":386011}"
             ]
         },
         {
