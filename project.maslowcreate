@@ -3,6 +3,17 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
+            "uniqueID": 485668,
+            "topLevel": false,
+            "BOMlist": [],
+            "allAtoms": [
+                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
+            ],
+            "allConnectors": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
             "uniqueID": 806222,
             "topLevel": false,
             "BOMlist": [],
@@ -14,7 +25,9 @@
                 "{\"atomType\":\"Intersection\",\"name\":\"Intersection\",\"x\":537,\"y\":161,\"uniqueID\":212092,\"ioValues\":[]}",
                 "{\"atomType\":\"Difference\",\"name\":\"Difference\",\"x\":539,\"y\":223,\"uniqueID\":294532,\"ioValues\":[]}",
                 "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":755,\"y\":118,\"uniqueID\":186477,\"ioValues\":[],\"readmeText\":\"A molecule can contain any amount of logic, but only logic attached to the output will be used\"}",
-                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
+                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}",
+                "{\"atomType\":\"Molecule\",\"name\":\"Molecule\",\"x\":888,\"y\":269,\"uniqueID\":485668,\"BOMlist\":[]}",
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":807,\"y\":265,\"uniqueID\":167079,\"ioValues\":[],\"readmeText\":\"Here are some more examples\"}"
             ],
             "allConnectors": [
                 "{\"ap1Name\":\"number or geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":329492,\"ap2ID\":347747}",
