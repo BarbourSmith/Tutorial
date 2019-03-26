@@ -7,8 +7,11 @@
             "topLevel": false,
             "BOMlist": [],
             "allAtoms": [
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":113,\"y\":145,\"uniqueID\":304931,\"ioValues\":[],\"readmeText\":\"One last useful tool to know about is the shrinkwrap atom\"}",
-                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":113,\"y\":145,\"uniqueID\":304931,\"ioValues\":[],\"readmeText\":\"Another useful tool to know about is the shrink wrap atom. It essentially \\\"shrink wraps\\\" multiple 2D shapes into one\"}",
+                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}",
+                "{\"atomType\":\"Circle\",\"name\":\"Circle\",\"x\":221,\"y\":69,\"uniqueID\":482087,\"ioValues\":[{\"name\":\"radius\",\"ioValue\":5},{\"name\":\"max segment size\",\"ioValue\":1}]}",
+                "{\"atomType\":\"Rectangle\",\"name\":\"Rectangle\",\"x\":280,\"y\":138,\"uniqueID\":716545,\"ioValues\":[{\"name\":\"x length\",\"ioValue\":10},{\"name\":\"y length\",\"ioValue\":10}]}",
+                "{\"atomType\":\"Circle\",\"name\":\"Circle\",\"x\":204,\"y\":215,\"uniqueID\":754711,\"ioValues\":[{\"name\":\"radius\",\"ioValue\":5},{\"name\":\"max segment size\",\"ioValue\":4}]}"
             ],
             "allConnectors": []
         },
