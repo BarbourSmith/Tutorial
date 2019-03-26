@@ -15,3 +15,6 @@ The logical elements which we can connect together are referred to as 'Atoms'. A
 Each atom has 0 or more inputs and 1 output. 
 
 
+Readme text here
+
+
