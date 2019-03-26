@@ -20,7 +20,7 @@
                 "{\"atomType\":\"Extrude\",\"name\":\"Extrude\",\"x\":688,\"y\":67,\"uniqueID\":614521,\"ioValues\":[{\"name\":\"height\",\"ioValue\":10}]}",
                 "{\"atomType\":\"Extrude\",\"name\":\"Extrude\",\"x\":708,\"y\":140,\"uniqueID\":248957,\"ioValues\":[{\"name\":\"height\",\"ioValue\":10}]}",
                 "{\"atomType\":\"Extrude\",\"name\":\"Extrude\",\"x\":698,\"y\":225,\"uniqueID\":142394,\"ioValues\":[{\"name\":\"height\",\"ioValue\":10}]}",
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":851,\"y\":239,\"uniqueID\":357299,\"ioValues\":[],\"readmeText\":\"To place your own molecules right click anywhere on the canvas an play around\"}",
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":851,\"y\":239,\"uniqueID\":357299,\"ioValues\":[],\"readmeText\":\"To place your own molecules right click anywhere on the canvas an play around. There is a TON more to Maslow Create including GitHub integration, bill of materials management and collaborative design, but that's enough to begin understanding the idea of how it works.\"}",
                 "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
             ],
             "allConnectors": [
