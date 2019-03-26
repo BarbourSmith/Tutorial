@@ -24,12 +24,13 @@
             "topLevel": true,
             "BOMlist": [],
             "allAtoms": [
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":290,\"y\":69,\"uniqueID\":812384,\"ioValues\":[],\"readmeText\":\"Maslow Create is a new kind of CAD program, it is a CAD program which is built on logic instead of drawing. The CAD model is created by connecting logical blocks. Here you can see the most simple form of this where we create a circle, and then connect it to an 'extrude' block which makes it 3D.\"}",
                 "{\"atomType\":\"Circle\",\"name\":\"Circle\",\"x\":170,\"y\":131,\"uniqueID\":159293,\"ioValues\":[{\"name\":\"radius\",\"ioValue\":10},{\"name\":\"max segment size\",\"ioValue\":1}]}",
-                "{\"atomType\":\"Extrude\",\"name\":\"Extrude\",\"x\":456,\"y\":180,\"uniqueID\":858900,\"ioValues\":[{\"name\":\"height\",\"ioValue\":10}]}",
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":338,\"y\":88,\"uniqueID\":812384,\"ioValues\":[],\"readmeText\":\"Maslow Create is a new kind of CAD program, it is a CAD program which is built on logic instead of drawing. The CAD model is created by connecting logical blocks. Here you can see the most simple form of this where we create a circle, and then connect it to an 'extrude' block which makes it 3D.\"}",
+                "{\"atomType\":\"Extrude\",\"name\":\"Extrude\",\"x\":486,\"y\":157,\"uniqueID\":858900,\"ioValues\":[{\"name\":\"height\",\"ioValue\":10}]}",
                 "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":779,\"y\":74,\"uniqueID\":804779,\"ioValues\":[],\"readmeText\":\"The logical elements which we can connect together are referred to as 'Atoms'. A number of atom can be joined together to form a new logical element called a 'Molecule'. Double click on a molecule to see and edit it's structure \"}",
                 "{\"atomType\":\"Molecule\",\"name\":\"Molecule\",\"x\":791,\"y\":166,\"uniqueID\":806222,\"BOMlist\":[]}",
-                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
+                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}",
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":887,\"y\":273,\"uniqueID\":976737,\"ioValues\":[],\"readmeText\":\"Readme text here\"}"
             ],
             "allConnectors": [
                 "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":159293,\"ap2ID\":858900}",
