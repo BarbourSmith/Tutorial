@@ -27,7 +27,7 @@ Click on the molecule here to see some more examples
 Another useful tool to know about is the shrink wrap atom. It essentially "shrink wraps" multiple 2D shapes into one
 
 
-To place your own molecules right click anywhere on the canvas an play around
+To place your own molecules right click anywhere on the canvas an play around. There is a TON more to Maslow Create including GitHub integration, bill of materials management and collaborative design, but that's enough to begin understanding the idea of how it works.
 
 
 The area in the lower right corner of the screen contains information about the currently selected atom. Some values may be editable if you click on them
