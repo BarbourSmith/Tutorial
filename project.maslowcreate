@@ -7,17 +7,15 @@
             "topLevel": false,
             "BOMlist": [],
             "allAtoms": [
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":163,\"y\":98,\"uniqueID\":184930,\"ioValues\":[],\"readmeText\":\"Each atom has 0 or more inputs and 1 output. \"}",
-                "{\"atomType\":\"Circle\",\"name\":\"Circle\",\"x\":154,\"y\":181,\"uniqueID\":889829,\"ioValues\":[{\"name\":\"radius\",\"ioValue\":10},{\"name\":\"max segment size\",\"ioValue\":1}]}",
+                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":115,\"y\":108,\"uniqueID\":184930,\"ioValues\":[],\"readmeText\":\"Each atom has 0 or more inputs and 1 output. \"}",
                 "{\"atomType\":\"Translate\",\"name\":\"Translate\",\"x\":320,\"y\":74,\"uniqueID\":347747,\"ioValues\":[{\"name\":\"xDist\",\"ioValue\":0},{\"name\":\"yDist\",\"ioValue\":0},{\"name\":\"zDist\",\"ioValue\":0}]}",
-                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}",
                 "{\"atomType\":\"Union\",\"name\":\"Union\",\"x\":536,\"y\":97,\"uniqueID\":386011,\"ioValues\":[]}",
                 "{\"atomType\":\"Intersection\",\"name\":\"Intersection\",\"x\":540,\"y\":172,\"uniqueID\":212092,\"ioValues\":[]}",
-                "{\"atomType\":\"Difference\",\"name\":\"Difference\",\"x\":539,\"y\":223,\"uniqueID\":294532,\"ioValues\":[]}"
+                "{\"atomType\":\"Difference\",\"name\":\"Difference\",\"x\":539,\"y\":223,\"uniqueID\":294532,\"ioValues\":[]}",
+                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}",
+                "{\"atomType\":\"Input\",\"name\":\"Inputs Can Have Names\",\"x\":75,\"y\":182,\"uniqueID\":329492,\"ioValues\":[]}"
             ],
-            "allConnectors": [
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":889829,\"ap2ID\":347747}"
-            ]
+            "allConnectors": []
         },
         {
             "atomType": "Molecule",
