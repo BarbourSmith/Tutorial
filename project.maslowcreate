@@ -91,18 +91,10 @@
                     ]
                 },
                 {
-                    "atomType": "Union",
-                    "name": "Union",
-                    "x": 741,
-                    "y": 77,
-                    "uniqueID": 967029,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 743,
-                    "y": 160,
+                    "x": 765,
+                    "y": 95,
                     "uniqueID": 449683,
                     "ioValues": []
                 },
@@ -131,12 +123,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap1ID": 934230,
-                    "ap2ID": 967029
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap1ID": 934230,
                     "ap2ID": 449683
                 },
                 {
@@ -149,13 +135,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap1ID": 636389,
-                    "ap2ID": 967029
+                    "ap2ID": 449683
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap1ID": 636389,
-                    "ap2ID": 449683
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 449683
                 }
             ]
         }
