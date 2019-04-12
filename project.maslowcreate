@@ -2,94 +2,161 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Molecules can have names too",
-            "uniqueID": 485668,
-            "topLevel": false,
-            "BOMlist": [],
-            "allAtoms": [
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":113,\"y\":145,\"uniqueID\":304931,\"ioValues\":[],\"readmeText\":\"Another useful tool to know about is the shrink wrap atom. It essentially \\\"shrink wraps\\\" multiple 2D shapes into one\"}",
-                "{\"atomType\":\"Circle\",\"name\":\"Circle\",\"x\":221,\"y\":69,\"uniqueID\":482087,\"ioValues\":[{\"name\":\"radius\",\"ioValue\":5},{\"name\":\"max segment size\",\"ioValue\":1}]}",
-                "{\"atomType\":\"Rectangle\",\"name\":\"Rectangle\",\"x\":219,\"y\":137,\"uniqueID\":716545,\"ioValues\":[{\"name\":\"x length\",\"ioValue\":5},{\"name\":\"y length\",\"ioValue\":5}]}",
-                "{\"atomType\":\"Circle\",\"name\":\"Circle\",\"x\":204,\"y\":215,\"uniqueID\":754711,\"ioValues\":[{\"name\":\"radius\",\"ioValue\":5},{\"name\":\"max segment size\",\"ioValue\":1}]}",
-                "{\"atomType\":\"Translate\",\"name\":\"Translate\",\"x\":340,\"y\":66,\"uniqueID\":765754,\"ioValues\":[{\"name\":\"xDist\",\"ioValue\":30},{\"name\":\"yDist\",\"ioValue\":0},{\"name\":\"zDist\",\"ioValue\":0}]}",
-                "{\"atomType\":\"Translate\",\"name\":\"Translate\",\"x\":342,\"y\":158,\"uniqueID\":595999,\"ioValues\":[{\"name\":\"xDist\",\"ioValue\":0},{\"name\":\"yDist\",\"ioValue\":0},{\"name\":\"zDist\",\"ioValue\":0}]}",
-                "{\"atomType\":\"Translate\",\"name\":\"Translate\",\"x\":338,\"y\":222,\"uniqueID\":655751,\"ioValues\":[{\"name\":\"xDist\",\"ioValue\":0},{\"name\":\"yDist\",\"ioValue\":30},{\"name\":\"zDist\",\"ioValue\":0}]}",
-                "{\"atomType\":\"ShrinkWrap\",\"name\":\"Shrink Wrap\",\"x\":556,\"y\":68,\"uniqueID\":685478,\"ioValues\":[{\"name\":\"2D shape 725786\",\"ioValue\":10},{\"name\":\"2D shape 116434\",\"ioValue\":10},{\"name\":\"2D shape 390094\",\"ioValue\":10},{\"name\":\"2D shape 226663\",\"ioValue\":10}],\"closedSelection\":1}",
-                "{\"atomType\":\"ShrinkWrap\",\"name\":\"Shrink Wrap\",\"x\":554,\"y\":144,\"uniqueID\":460838,\"ioValues\":[{\"name\":\"2D shape 480938\",\"ioValue\":10},{\"name\":\"2D shape 255130\",\"ioValue\":10},{\"name\":\"2D shape 666074\",\"ioValue\":10},{\"name\":\"2D shape 253418\",\"ioValue\":10}],\"closedSelection\":0}",
-                "{\"atomType\":\"ShrinkWrap\",\"name\":\"Shrink Wrap\",\"x\":560,\"y\":226,\"uniqueID\":214497,\"ioValues\":[{\"name\":\"2D shape 284335\",\"ioValue\":10},{\"name\":\"2D shape 189810\",\"ioValue\":10},{\"name\":\"2D shape 636866\",\"ioValue\":10},{\"name\":\"2D shape 403087\",\"ioValue\":10}],\"closedSelection\":2}",
-                "{\"atomType\":\"Extrude\",\"name\":\"Extrude\",\"x\":688,\"y\":67,\"uniqueID\":614521,\"ioValues\":[{\"name\":\"height\",\"ioValue\":10}]}",
-                "{\"atomType\":\"Extrude\",\"name\":\"Extrude\",\"x\":708,\"y\":140,\"uniqueID\":248957,\"ioValues\":[{\"name\":\"height\",\"ioValue\":10}]}",
-                "{\"atomType\":\"Extrude\",\"name\":\"Extrude\",\"x\":698,\"y\":225,\"uniqueID\":142394,\"ioValues\":[{\"name\":\"height\",\"ioValue\":10}]}",
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":851,\"y\":239,\"uniqueID\":357299,\"ioValues\":[],\"readmeText\":\"To place your own molecules right click anywhere on the canvas an play around. There is a TON more to Maslow Create including GitHub integration, bill of materials management and collaborative design, but that's enough to begin understanding the idea of how it works.\"}",
-                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
-            ],
-            "allConnectors": [
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":482087,\"ap2ID\":765754}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":716545,\"ap2ID\":595999}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":754711,\"ap2ID\":655751}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"2D shape 725786\",\"ap1ID\":765754,\"ap2ID\":685478}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"2D shape 636866\",\"ap1ID\":765754,\"ap2ID\":214497}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"2D shape 480938\",\"ap1ID\":765754,\"ap2ID\":460838}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"2D shape 189810\",\"ap1ID\":595999,\"ap2ID\":214497}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"2D shape 390094\",\"ap1ID\":595999,\"ap2ID\":685478}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"2D shape 255130\",\"ap1ID\":595999,\"ap2ID\":460838}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"2D shape 284335\",\"ap1ID\":655751,\"ap2ID\":214497}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"2D shape 116434\",\"ap1ID\":655751,\"ap2ID\":685478}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"2D shape 666074\",\"ap1ID\":655751,\"ap2ID\":460838}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":685478,\"ap2ID\":614521}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":460838,\"ap2ID\":248957}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":214497,\"ap2ID\":142394}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"number or geometry\",\"ap1ID\":248957}"
-            ]
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Molecule",
-            "uniqueID": 806222,
-            "topLevel": false,
-            "BOMlist": [],
-            "allAtoms": [
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":82,\"y\":129,\"uniqueID\":184930,\"ioValues\":[],\"readmeText\":\"Each atom has 0 or more inputs and 1 output. \"}",
-                "{\"atomType\":\"Input\",\"name\":\"Inputs Can Have Names\",\"x\":75,\"y\":182,\"uniqueID\":329492,\"ioValues\":[]}",
-                "{\"atomType\":\"Translate\",\"name\":\"Translate\",\"x\":320,\"y\":74,\"uniqueID\":347747,\"ioValues\":[{\"name\":\"xDist\",\"ioValue\":0},{\"name\":\"yDist\",\"ioValue\":10},{\"name\":\"zDist\",\"ioValue\":0}]}",
-                "{\"atomType\":\"Union\",\"name\":\"Union\",\"x\":536,\"y\":97,\"uniqueID\":386011,\"ioValues\":[]}",
-                "{\"atomType\":\"Intersection\",\"name\":\"Intersection\",\"x\":537,\"y\":161,\"uniqueID\":212092,\"ioValues\":[]}",
-                "{\"atomType\":\"Difference\",\"name\":\"Difference\",\"x\":539,\"y\":223,\"uniqueID\":294532,\"ioValues\":[]}",
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":755,\"y\":118,\"uniqueID\":186477,\"ioValues\":[],\"readmeText\":\"A molecule can contain any amount of logic, but only logic attached to the output will be used\"}",
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":807,\"y\":265,\"uniqueID\":167079,\"ioValues\":[],\"readmeText\":\"Click on the molecule here to see some more examples\"}",
-                "{\"atomType\":\"Molecule\",\"name\":\"Molecules can have names too\",\"x\":886,\"y\":264,\"uniqueID\":485668,\"BOMlist\":[]}",
-                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
-            ],
-            "allConnectors": [
-                "{\"ap1Name\":\"number or geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":329492,\"ap2ID\":347747}",
-                "{\"ap1Name\":\"number or geometry\",\"ap2Name\":\"geometry2\",\"ap1ID\":329492,\"ap2ID\":386011}",
-                "{\"ap1Name\":\"number or geometry\",\"ap2Name\":\"geometry2\",\"ap1ID\":329492,\"ap2ID\":212092}",
-                "{\"ap1Name\":\"number or geometry\",\"ap2Name\":\"geometry2\",\"ap1ID\":329492,\"ap2ID\":294532}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry1\",\"ap1ID\":347747,\"ap2ID\":386011}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry1\",\"ap1ID\":347747,\"ap2ID\":212092}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry1\",\"ap1ID\":347747,\"ap2ID\":294532}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"number or geometry\",\"ap1ID\":294532}"
-            ]
-        },
-        {
-            "atomType": "Molecule",
             "name": "Tutorial",
+            "x": 0,
+            "y": 0,
             "uniqueID": 465361,
+            "ioValues": [],
             "topLevel": true,
-            "BOMlist": [],
             "allAtoms": [
-                "{\"atomType\":\"Circle\",\"name\":\"Circle\",\"x\":162,\"y\":107,\"uniqueID\":159293,\"ioValues\":[{\"name\":\"radius\",\"ioValue\":10},{\"name\":\"max segment size\",\"ioValue\":1}]}",
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":338,\"y\":88,\"uniqueID\":812384,\"ioValues\":[],\"readmeText\":\"Maslow Create is a new kind of CAD program, it is a CAD program which is built on logic instead of drawing. The CAD model is created by connecting logical blocks. Here you can see the most simple form of this where we create a circle, and then connect it to an 'extrude' block which makes it 3D.\"}",
-                "{\"atomType\":\"Extrude\",\"name\":\"Extrude\",\"x\":503,\"y\":235,\"uniqueID\":858900,\"ioValues\":[{\"name\":\"height\",\"ioValue\":10}]}",
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":690,\"y\":87,\"uniqueID\":804779,\"ioValues\":[],\"readmeText\":\"The logical elements which we can connect together are referred to as 'Atoms'. A number of atom can be joined together to form a new logical element called a 'Molecule'. Double click on a molecule to see and edit it's structure \"}",
-                "{\"atomType\":\"Molecule\",\"name\":\"Molecule\",\"x\":860,\"y\":132,\"uniqueID\":806222,\"BOMlist\":[]}",
-                "{\"atomType\":\"Readme\",\"name\":\"README\",\"x\":887,\"y\":273,\"uniqueID\":976737,\"ioValues\":[],\"readmeText\":\"The area in the lower right corner of the screen contains information about the currently selected atom. Some values may be editable if you click on them\"}",
-                "{\"atomType\":\"Output\",\"name\":\"Output\",\"x\":1038,\"y\":164,\"ioValues\":[]}"
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 157,
+                    "y": 72,
+                    "uniqueID": 606028,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "max segment size",
+                            "ioValue": 1
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 162,
+                    "y": 233,
+                    "uniqueID": 632755,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 359,
+                    "y": 87,
+                    "uniqueID": 934230,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 355,
+                    "y": 192,
+                    "uniqueID": 225460,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 537,
+                    "y": 177,
+                    "uniqueID": 636389,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 7
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Union",
+                    "name": "Union",
+                    "x": 741,
+                    "y": 77,
+                    "uniqueID": 967029,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 743,
+                    "y": 160,
+                    "uniqueID": 449683,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1025,
+                    "y": 164,
+                    "ioValues": []
+                }
             ],
             "allConnectors": [
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"geometry\",\"ap1ID\":159293,\"ap2ID\":858900}",
-                "{\"ap1Name\":\"geometry\",\"ap2Name\":\"Inputs Can Have Names\",\"ap1ID\":858900,\"ap2ID\":806222}",
-                "{\"ap1Name\":\"Geometry\",\"ap2Name\":\"number or geometry\",\"ap1ID\":806222}"
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 606028,
+                    "ap2ID": 934230
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 632755,
+                    "ap2ID": 225460
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 934230,
+                    "ap2ID": 967029
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 934230,
+                    "ap2ID": 449683
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 225460,
+                    "ap2ID": 636389
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 636389,
+                    "ap2ID": 967029
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 636389,
+                    "ap2ID": 449683
+                }
             ]
         }
     ]
