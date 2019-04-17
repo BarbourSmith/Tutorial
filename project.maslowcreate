@@ -18,11 +18,11 @@
                     "ioValues": [
                         {
                             "name": "radius",
-                            "ioValue": 500
+                            "ioValue": 20
                         },
                         {
                             "name": "max segment size",
-                            "ioValue": 30
+                            "ioValue": 1
                         }
                     ]
                 },
@@ -72,8 +72,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 536,
-                    "y": 185,
+                    "x": 539,
+                    "y": 209,
                     "uniqueID": 636389,
                     "ioValues": [
                         {
