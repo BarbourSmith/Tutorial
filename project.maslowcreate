@@ -121,12 +121,6 @@
             ],
             "allConnectors": [
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "radius",
-                    "ap1ID": 491189,
-                    "ap2ID": 606028
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 606028,
