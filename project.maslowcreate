@@ -6,14 +6,27 @@
             "x": 0,
             "y": 0,
             "uniqueID": 465361,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input936659",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Input",
+                    "name": "Input936659",
+                    "x": 91,
+                    "y": 106,
+                    "uniqueID": 491189,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 166,
-                    "y": 69,
+                    "x": 227,
+                    "y": 77,
                     "uniqueID": 606028,
                     "ioValues": [
                         {
@@ -29,8 +42,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 163,
-                    "y": 236,
+                    "x": 240,
+                    "y": 228,
                     "uniqueID": 632755,
                     "ioValues": [
                         {
@@ -46,8 +59,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 389,
-                    "y": 95,
+                    "x": 470,
+                    "y": 82,
                     "uniqueID": 934230,
                     "ioValues": [
                         {
@@ -59,8 +72,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 350,
-                    "y": 265,
+                    "x": 432,
+                    "y": 243,
                     "uniqueID": 225460,
                     "ioValues": [
                         {
@@ -107,6 +120,12 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "radius",
+                    "ap1ID": 491189,
+                    "ap2ID": 606028
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
