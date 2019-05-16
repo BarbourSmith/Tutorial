@@ -68,8 +68,8 @@
                 {
                     "atomType": "Readme",
                     "name": "README",
-                    "x": 91,
-                    "y": 77,
+                    "x": 101,
+                    "y": 127,
                     "uniqueID": 950419,
                     "ioValues": [],
                     "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
@@ -88,6 +88,19 @@
                         {
                             "name": "max segment size",
                             "ioValue": 1
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Constant - Radius",
+                    "x": 71,
+                    "y": 243,
+                    "uniqueID": 832924,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -185,6 +198,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 606028,
                     "ap2ID": 934230
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "radius",
+                    "ap1ID": 832924,
+                    "ap2ID": 606028
                 },
                 {
                     "ap1Name": "geometry",
