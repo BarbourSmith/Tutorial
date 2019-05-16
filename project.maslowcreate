@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 748,
-            "y": 228,
+            "x": 806,
+            "y": 235,
             "uniqueID": 742531,
             "ioValues": [
                 {
@@ -255,16 +255,25 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 634,
-                    "y": 141,
+                    "x": 670,
+                    "y": 100,
                     "uniqueID": 449683,
                     "ioValues": []
                 },
                 {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 722,
+                    "y": 286,
+                    "uniqueID": 800690,
+                    "ioValues": [],
+                    "readmeText": "Readme text here"
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 748,
-                    "y": 228,
+                    "x": 806,
+                    "y": 235,
                     "uniqueID": 742531,
                     "ioValues": [
                         {
@@ -276,8 +285,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 941,
-                    "y": 122,
+                    "x": 943,
+                    "y": 152,
                     "uniqueID": 140877,
                     "ioValues": [
                         {
