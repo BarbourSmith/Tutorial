@@ -47,10 +47,6 @@
                     "uniqueID": 304604,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -91,7 +87,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -14
                         },
                         {
                             "name": "yDist",
@@ -150,12 +146,7 @@
             "x": 0,
             "y": 0,
             "uniqueID": 465361,
-            "ioValues": [
-                {
-                    "name": "Value set to 25",
-                    "ioValue": 25
-                }
-            ],
+            "ioValues": [],
             "topLevel": true,
             "allAtoms": [
                 {
@@ -167,30 +158,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 25
+                            "ioValue": 10
                         },
                         {
                             "name": "y length",
-                            "ioValue": 20
+                            "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Value set to 25",
-                    "x": 67,
-                    "y": 180,
-                    "uniqueID": 887618,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 179,
-                    "y": 161,
-                    "uniqueID": 950419,
-                    "ioValues": [],
-                    "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
                 },
                 {
                     "atomType": "Extrude",
@@ -214,9 +188,18 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": ""
+                            "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 272,
+                    "y": 158,
+                    "uniqueID": 950419,
+                    "ioValues": [],
+                    "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
                 },
                 {
                     "atomType": "Circle",
@@ -225,6 +208,10 @@
                     "y": 291,
                     "uniqueID": 606028,
                     "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 10
+                        },
                         {
                             "name": "max segment size",
                             "ioValue": 1
@@ -348,12 +335,6 @@
                     "ap2Name": "geometry",
                     "ap1ID": 632755,
                     "ap2ID": 225460
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x length",
-                    "ap1ID": 887618,
-                    "ap2ID": 632755
                 },
                 {
                     "ap1Name": "geometry",
