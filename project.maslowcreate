@@ -16,7 +16,7 @@
                     "y": 77,
                     "uniqueID": 950419,
                     "ioValues": [],
-                    "readmeText": "Readme text here"
+                    "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
                 },
                 {
                     "atomType": "Circle",
@@ -38,8 +38,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 240,
-                    "y": 228,
+                    "x": 187,
+                    "y": 231,
                     "uniqueID": 632755,
                     "ioValues": [
                         {
@@ -55,8 +55,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 470,
-                    "y": 82,
+                    "x": 413,
+                    "y": 66,
                     "uniqueID": 934230,
                     "ioValues": [
                         {
@@ -68,8 +68,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 427,
-                    "y": 255,
+                    "x": 420,
+                    "y": 233,
                     "uniqueID": 225460,
                     "ioValues": [
                         {
@@ -81,8 +81,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 594,
-                    "y": 184,
+                    "x": 593,
+                    "y": 167,
                     "uniqueID": 636389,
                     "ioValues": [
                         {
