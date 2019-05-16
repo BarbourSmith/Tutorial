@@ -6,21 +6,17 @@
             "x": 0,
             "y": 0,
             "uniqueID": 465361,
-            "ioValues": [
-                {
-                    "name": "Input936659",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": true,
             "allAtoms": [
                 {
-                    "atomType": "Input",
-                    "name": "Input936659",
+                    "atomType": "Readme",
+                    "name": "README",
                     "x": 91,
-                    "y": 106,
-                    "uniqueID": 491189,
-                    "ioValues": []
+                    "y": 77,
+                    "uniqueID": 950419,
+                    "ioValues": [],
+                    "readmeText": "Readme text here"
                 },
                 {
                     "atomType": "Circle",
@@ -114,7 +110,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 931,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
