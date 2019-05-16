@@ -6,7 +6,12 @@
             "x": 788,
             "y": 236,
             "uniqueID": 742531,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Radius",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -15,6 +20,23 @@
                     "x": 106,
                     "y": 100,
                     "uniqueID": 394263,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 169,
+                    "y": 161,
+                    "uniqueID": 897042,
+                    "ioValues": [],
+                    "readmeText": "These Input atoms define the inputs for the Molecule"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Radius",
+                    "x": 108,
+                    "y": 222,
+                    "uniqueID": 385685,
                     "ioValues": []
                 },
                 {
@@ -39,6 +61,27 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 585,
+                    "y": 191,
+                    "uniqueID": 650928,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -52,6 +95,18 @@
                     "ap2Name": "geometry",
                     "ap1ID": 394263,
                     "ap2ID": 304604
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "xDist",
+                    "ap1ID": 385685,
+                    "ap2ID": 650928
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 304604,
+                    "ap2ID": 650928
                 }
             ],
             "fileTypeVersion": 1
@@ -182,7 +237,12 @@
                     "x": 788,
                     "y": 236,
                     "uniqueID": 742531,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Radius",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
