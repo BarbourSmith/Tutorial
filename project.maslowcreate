@@ -47,6 +47,10 @@
                     "uniqueID": 304604,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -87,7 +91,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -14
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
@@ -197,7 +201,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10
+                            "ioValue": ""
                         }
                     ]
                 },
@@ -208,10 +212,6 @@
                     "y": 291,
                     "uniqueID": 606028,
                     "ioValues": [
-                        {
-                            "name": "radius",
-                            "ioValue": 10
-                        },
                         {
                             "name": "max segment size",
                             "ioValue": 1
