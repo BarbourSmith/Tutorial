@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 810,
-            "y": 232,
+            "x": 815,
+            "y": 224,
             "uniqueID": 742531,
             "ioValues": [
                 {
@@ -52,7 +52,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": -1.3
+                            "ioValue": -1.8
                         }
                     ],
                     "currentEquation": 2
@@ -87,7 +87,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -13
+                            "ioValue": -18
                         },
                         {
                             "name": "yDist",
@@ -281,8 +281,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 810,
-                    "y": 232,
+                    "x": 815,
+                    "y": 224,
                     "uniqueID": 742531,
                     "ioValues": [
                         {
