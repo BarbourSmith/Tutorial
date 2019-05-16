@@ -267,6 +267,15 @@
                     "y": 286,
                     "uniqueID": 800690,
                     "ioValues": [],
+                    "readmeText": "Molecules like this one let you layer your model to create more space. Real estate on the screen is intentionally limited to keep projects from becoming cluttered. There is no limit to how deep you can logically nest Atoms in Molecules"
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 779,
+                    "y": 61,
+                    "uniqueID": 606302,
+                    "ioValues": [],
                     "readmeText": "Readme text here"
                 },
                 {
