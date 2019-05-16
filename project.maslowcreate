@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 788,
-            "y": 236,
+            "x": 737,
+            "y": 233,
             "uniqueID": 742531,
             "ioValues": [
                 {
@@ -52,7 +52,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": -0.8
+                            "ioValue": -1.2
                         }
                     ],
                     "currentEquation": 2
@@ -87,7 +87,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -8
+                            "ioValue": -12
                         },
                         {
                             "name": "yDist",
@@ -263,12 +263,33 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 788,
-                    "y": 236,
+                    "x": 737,
+                    "y": 233,
                     "uniqueID": 742531,
                     "ioValues": [
                         {
                             "name": "Radius",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 941,
+                    "y": 122,
+                    "uniqueID": 140877,
+                    "ioValues": [
+                        {
+                            "name": "2D shape 829766",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "2D shape 555303",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "2D shape 294487",
                             "ioValue": 10
                         }
                     ]
@@ -320,14 +341,26 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 449683
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "Shape",
                     "ap1ID": 449683,
                     "ap2ID": 742531
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "2D shape 555303",
+                    "ap1ID": 449683,
+                    "ap2ID": 140877
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "2D shape 829766",
+                    "ap1ID": 742531,
+                    "ap2ID": 140877
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 140877
                 }
             ],
             "fileTypeVersion": 1
