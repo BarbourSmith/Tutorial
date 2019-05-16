@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 827,
-            "y": 219,
+            "x": 788,
+            "y": 236,
             "uniqueID": 742531,
             "ioValues": [],
             "topLevel": false,
@@ -66,49 +66,10 @@
             "topLevel": true,
             "allAtoms": [
                 {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 101,
-                    "y": 127,
-                    "uniqueID": 950419,
-                    "ioValues": [],
-                    "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 227,
-                    "y": 77,
-                    "uniqueID": 606028,
-                    "ioValues": [
-                        {
-                            "name": "radius",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "max segment size",
-                            "ioValue": 1
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Constant - Radius",
-                    "x": 71,
-                    "y": 243,
-                    "uniqueID": 832924,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 187,
-                    "y": 231,
+                    "x": 102,
+                    "y": 58,
                     "uniqueID": 632755,
                     "ioValues": [
                         {
@@ -122,23 +83,23 @@
                     ]
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 413,
-                    "y": 66,
-                    "uniqueID": 934230,
+                    "atomType": "Constant",
+                    "name": "Constant - Radius",
+                    "x": 74,
+                    "y": 258,
+                    "uniqueID": 832924,
                     "ioValues": [
                         {
-                            "name": "height",
-                            "ioValue": 20
+                            "name": "number",
+                            "ioValue": 10
                         }
                     ]
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 420,
-                    "y": 233,
+                    "x": 295,
+                    "y": 50,
                     "uniqueID": 225460,
                     "ioValues": [
                         {
@@ -148,10 +109,36 @@
                     ]
                 },
                 {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 276,
+                    "y": 142,
+                    "uniqueID": 950419,
+                    "ioValues": [],
+                    "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 288,
+                    "y": 255,
+                    "uniqueID": 606028,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "max segment size",
+                            "ioValue": 1
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 593,
-                    "y": 167,
+                    "x": 508,
+                    "y": 59,
                     "uniqueID": 636389,
                     "ioValues": [
                         {
@@ -169,18 +156,31 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 513,
+                    "y": 258,
+                    "uniqueID": 934230,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 759,
-                    "y": 104,
+                    "x": 634,
+                    "y": 141,
                     "uniqueID": 449683,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 827,
-                    "y": 219,
+                    "x": 788,
+                    "y": 236,
                     "uniqueID": 742531,
                     "ioValues": []
                 },
@@ -196,8 +196,8 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 606028,
-                    "ap2ID": 934230
+                    "ap1ID": 632755,
+                    "ap2ID": 225460
                 },
                 {
                     "ap1Name": "number",
@@ -208,25 +208,25 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 632755,
-                    "ap2ID": 225460
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap1ID": 934230,
-                    "ap2ID": 449683
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
                     "ap1ID": 225460,
                     "ap2ID": 636389
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 606028,
+                    "ap2ID": 934230
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap1ID": 636389,
+                    "ap2ID": 449683
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 934230,
                     "ap2ID": 449683
                 },
                 {
