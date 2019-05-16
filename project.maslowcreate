@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 737,
-            "y": 233,
+            "x": 748,
+            "y": 228,
             "uniqueID": 742531,
             "ioValues": [
                 {
@@ -52,7 +52,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": -1.2
+                            "ioValue": -3
                         }
                     ],
                     "currentEquation": 2
@@ -81,13 +81,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 835,
-                    "y": 120,
+                    "x": 843,
+                    "y": 127,
                     "uniqueID": 650928,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -12
+                            "ioValue": -30
                         },
                         {
                             "name": "yDist",
@@ -263,8 +263,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 737,
-                    "y": 233,
+                    "x": 748,
+                    "y": 228,
                     "uniqueID": 742531,
                     "ioValues": [
                         {
