@@ -11,12 +11,15 @@ Maslow Create is a new type of CAD program where you define the thing you want t
 Molecules like this one let you layer your model to create more space. Real estate on the screen is intentionally limited to keep projects from becoming cluttered. There is no limit to how deep you can logically nest Atoms in Molecules
 
 
-Readme text here
+This difference Atom subtracts one shape from another. For the opposite behavior check out the intersection atom.
 
 
 ## Molecule
 
 
 These Input atoms define the inputs for the Molecule
+
+
+Readme text here
 
 

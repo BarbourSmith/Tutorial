@@ -276,7 +276,7 @@
                     "y": 61,
                     "uniqueID": 606302,
                     "ioValues": [],
-                    "readmeText": "Readme text here"
+                    "readmeText": "This difference Atom subtracts one shape from another. For the opposite behavior check out the intersection atom."
                 },
                 {
                     "atomType": "Molecule",
@@ -311,6 +311,15 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 1238,
+                    "y": 123,
+                    "uniqueID": 650474,
+                    "ioValues": [],
+                    "readmeText": "Readme text here"
                 },
                 {
                     "atomType": "Output",
