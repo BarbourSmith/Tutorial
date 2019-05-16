@@ -188,7 +188,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10
+                            "ioValue": 11
                         }
                     ]
                 },
@@ -210,7 +210,7 @@
                     "ioValues": [
                         {
                             "name": "radius",
-                            "ioValue": 10
+                            "ioValue": 11
                         },
                         {
                             "name": "max segment size",
