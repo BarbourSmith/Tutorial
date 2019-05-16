@@ -20,6 +20,6 @@ This difference Atom subtracts one shape from another. For the opposite behavior
 These Input atoms define the inputs for the Molecule
 
 
-Readme text here
+The output of the program defines what will be displayed in the project thumbnail and what shape will be used for displaying changes over time. The output of the project should be connected to the output Atom. Each Molecule comes with one Output atom which cannot be deleted.
 
 
