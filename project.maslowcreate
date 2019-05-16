@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 815,
-            "y": 224,
+            "x": 820,
+            "y": 231,
             "uniqueID": 742531,
             "ioValues": [
                 {
@@ -17,8 +17,8 @@
                 {
                     "atomType": "Input",
                     "name": "Shape",
-                    "x": 106,
-                    "y": 100,
+                    "x": 89,
+                    "y": 55,
                     "uniqueID": 394263,
                     "ioValues": []
                 },
@@ -34,34 +34,16 @@
                 {
                     "atomType": "Input",
                     "name": "Radius",
-                    "x": 108,
-                    "y": 222,
+                    "x": 89,
+                    "y": 291,
                     "uniqueID": 385685,
                     "ioValues": []
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 398,
-                    "y": 249,
-                    "uniqueID": 964908,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": -1.8
-                        }
-                    ],
-                    "currentEquation": 2
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 566,
-                    "y": 70,
+                    "x": 480,
+                    "y": 64,
                     "uniqueID": 304604,
                     "ioValues": [
                         {
@@ -79,15 +61,33 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 467,
+                    "y": 263,
+                    "uniqueID": 964908,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": -1.4
+                        }
+                    ],
+                    "currentEquation": 2
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 843,
-                    "y": 127,
+                    "x": 687,
+                    "y": 139,
                     "uniqueID": 650928,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -18
+                            "ioValue": -14
                         },
                         {
                             "name": "yDist",
@@ -121,15 +121,15 @@
                     "ap2ID": 964908
                 },
                 {
-                    "ap1Name": "z",
-                    "ap2Name": "xDist",
-                    "ap1ID": 964908,
-                    "ap2ID": 650928
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 304604,
+                    "ap2ID": 650928
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "xDist",
+                    "ap1ID": 964908,
                     "ap2ID": 650928
                 },
                 {
@@ -167,17 +167,13 @@
                     ]
                 },
                 {
-                    "atomType": "Constant",
-                    "name": "Constant - Radius",
-                    "x": 74,
-                    "y": 258,
-                    "uniqueID": 832924,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 10
-                        }
-                    ]
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 179,
+                    "y": 161,
+                    "uniqueID": 950419,
+                    "ioValues": [],
+                    "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
                 },
                 {
                     "atomType": "Extrude",
@@ -193,19 +189,23 @@
                     ]
                 },
                 {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 276,
-                    "y": 142,
-                    "uniqueID": 950419,
-                    "ioValues": [],
-                    "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
+                    "atomType": "Constant",
+                    "name": "Constant - Radius",
+                    "x": 70,
+                    "y": 298,
+                    "uniqueID": 832924,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 288,
-                    "y": 255,
+                    "x": 284,
+                    "y": 291,
                     "uniqueID": 606028,
                     "ioValues": [
                         {
@@ -242,8 +242,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 513,
-                    "y": 258,
+                    "x": 518,
+                    "y": 287,
                     "uniqueID": 934230,
                     "ioValues": [
                         {
@@ -263,8 +263,8 @@
                 {
                     "atomType": "Readme",
                     "name": "README",
-                    "x": 722,
-                    "y": 286,
+                    "x": 673,
+                    "y": 276,
                     "uniqueID": 800690,
                     "ioValues": [],
                     "readmeText": "Molecules like this one let you layer your model to create more space. Real estate on the screen is intentionally limited to keep projects from becoming cluttered. There is no limit to how deep you can logically nest Atoms in Molecules"
@@ -281,8 +281,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 815,
-                    "y": 224,
+                    "x": 820,
+                    "y": 231,
                     "uniqueID": 742531,
                     "ioValues": [
                         {
@@ -337,16 +337,16 @@
                     "ap2ID": 225460
                 },
                 {
-                    "ap1Name": "number",
-                    "ap2Name": "radius",
-                    "ap1ID": 832924,
-                    "ap2ID": 606028
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 225460,
                     "ap2ID": 636389
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "radius",
+                    "ap1ID": 832924,
+                    "ap2ID": 606028
                 },
                 {
                     "ap1Name": "geometry",
