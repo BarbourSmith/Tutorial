@@ -14,7 +14,7 @@ Molecules like this one let you layer your model to create more space. Real esta
 This difference Atom subtracts one shape from another. For the opposite behavior check out the intersection atom.
 
 
-## Molecule
+## Molecule - Rotate and Move
 
 
 These Input atoms define the inputs for the Molecule

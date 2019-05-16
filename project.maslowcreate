@@ -2,9 +2,9 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 820,
-            "y": 231,
+            "name": "Molecule - Rotate and Move",
+            "x": 816,
+            "y": 77,
             "uniqueID": 742531,
             "ioValues": [
                 {
@@ -182,13 +182,13 @@
                 {
                     "atomType": "Constant",
                     "name": "Constant - Radius",
-                    "x": 70,
-                    "y": 299,
+                    "x": 72,
+                    "y": 302,
                     "uniqueID": 832924,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 11
+                            "ioValue": 9.9
                         }
                     ]
                 },
@@ -210,7 +210,7 @@
                     "ioValues": [
                         {
                             "name": "radius",
-                            "ioValue": 11
+                            "ioValue": 9.9
                         },
                         {
                             "name": "max segment size",
@@ -253,36 +253,36 @@
                     ]
                 },
                 {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 702,
+                    "y": 56,
+                    "uniqueID": 800690,
+                    "ioValues": [],
+                    "readmeText": "Molecules like this one let you layer your model to create more space. Real estate on the screen is intentionally limited to keep projects from becoming cluttered. There is no limit to how deep you can logically nest Atoms in Molecules"
+                },
+                {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 670,
-                    "y": 100,
+                    "x": 696,
+                    "y": 223,
                     "uniqueID": 449683,
                     "ioValues": []
                 },
                 {
                     "atomType": "Readme",
                     "name": "README",
-                    "x": 673,
-                    "y": 276,
-                    "uniqueID": 800690,
-                    "ioValues": [],
-                    "readmeText": "Molecules like this one let you layer your model to create more space. Real estate on the screen is intentionally limited to keep projects from becoming cluttered. There is no limit to how deep you can logically nest Atoms in Molecules"
-                },
-                {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 779,
-                    "y": 61,
+                    "x": 716,
+                    "y": 284,
                     "uniqueID": 606302,
                     "ioValues": [],
                     "readmeText": "This difference Atom subtracts one shape from another. For the opposite behavior check out the intersection atom."
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 820,
-                    "y": 231,
+                    "name": "Molecule - Rotate and Move",
+                    "x": 816,
+                    "y": 77,
                     "uniqueID": 742531,
                     "ioValues": [
                         {
@@ -294,8 +294,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 943,
-                    "y": 152,
+                    "x": 1016,
+                    "y": 161,
                     "uniqueID": 140877,
                     "ioValues": [
                         {
