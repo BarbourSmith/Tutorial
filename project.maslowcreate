@@ -47,10 +47,6 @@
                     "uniqueID": 304604,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -91,7 +87,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -14
                         },
                         {
                             "name": "yDist",
@@ -150,7 +146,12 @@
             "x": 0,
             "y": 0,
             "uniqueID": 465361,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Value set to 25",
+                    "ioValue": 25
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
                 {
@@ -162,13 +163,21 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 25
                         },
                         {
                             "name": "y length",
                             "ioValue": 20
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Value set to 25",
+                    "x": 67,
+                    "y": 180,
+                    "uniqueID": 887618,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Readme",
@@ -201,7 +210,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": ""
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -212,6 +221,10 @@
                     "y": 291,
                     "uniqueID": 606028,
                     "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 10
+                        },
                         {
                             "name": "max segment size",
                             "ioValue": 1
@@ -335,6 +348,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 632755,
                     "ap2ID": 225460
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap1ID": 887618,
+                    "ap2ID": 632755
                 },
                 {
                     "ap1Name": "geometry",
