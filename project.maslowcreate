@@ -40,10 +40,28 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 398,
+                    "y": 249,
+                    "uniqueID": 964908,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": -0.8
+                        }
+                    ],
+                    "currentEquation": 2
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 416,
-                    "y": 128,
+                    "x": 566,
+                    "y": 70,
                     "uniqueID": 304604,
                     "ioValues": [
                         {
@@ -63,13 +81,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 585,
-                    "y": 191,
+                    "x": 835,
+                    "y": 120,
                     "uniqueID": 650928,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 10
+                            "ioValue": -8
                         },
                         {
                             "name": "yDist",
@@ -98,8 +116,14 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "xDist",
+                    "ap2Name": "x",
                     "ap1ID": 385685,
+                    "ap2ID": 964908
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "xDist",
+                    "ap1ID": 964908,
                     "ap2ID": 650928
                 },
                 {
@@ -107,6 +131,11 @@
                     "ap2Name": "geometry",
                     "ap1ID": 304604,
                     "ap2ID": 650928
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 650928
                 }
             ],
             "fileTypeVersion": 1
