@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule - Rotate and Move",
-            "x": 816,
-            "y": 77,
+            "x": 813,
+            "y": 81,
             "uniqueID": 742531,
             "ioValues": [
                 {
@@ -81,13 +81,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 687,
-                    "y": 139,
-                    "uniqueID": 650928,
+                    "x": 690,
+                    "y": 144,
+                    "uniqueID": 434840,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -14
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
@@ -124,18 +124,18 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 304604,
-                    "ap2ID": 650928
+                    "ap2ID": 434840
                 },
                 {
                     "ap1Name": "z",
                     "ap2Name": "xDist",
                     "ap1ID": 964908,
-                    "ap2ID": 650928
+                    "ap2ID": 434840
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 650928
+                    "ap1ID": 434840
                 }
             ],
             "fileTypeVersion": 1
@@ -211,10 +211,6 @@
                         {
                             "name": "radius",
                             "ioValue": 9.9
-                        },
-                        {
-                            "name": "max segment size",
-                            "ioValue": 1
                         }
                     ]
                 },
@@ -281,8 +277,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule - Rotate and Move",
-                    "x": 816,
-                    "y": 77,
+                    "x": 813,
+                    "y": 81,
                     "uniqueID": 742531,
                     "ioValues": [
                         {
@@ -392,5 +388,6 @@
             ],
             "fileTypeVersion": 1
         }
-    ]
+    ],
+    "circleSegmentSize": 2
 }
