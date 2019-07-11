@@ -3,13 +3,13 @@
         {
             "atomType": "Molecule",
             "name": "Molecule - Rotate and Move",
-            "x": 813,
-            "y": 81,
+            "x": 811,
+            "y": 85,
             "uniqueID": 742531,
             "ioValues": [
                 {
                     "name": "Radius",
-                    "ioValue": 10
+                    "ioValue": 9.9
                 }
             ],
             "topLevel": false,
@@ -69,7 +69,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 10
+                            "ioValue": 9.9
                         },
                         {
                             "name": "y",
@@ -87,7 +87,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -13.86
                         },
                         {
                             "name": "yDist",
@@ -102,7 +102,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1075,
                     "y": 164,
                     "ioValues": []
                 }
@@ -269,7 +269,7 @@
                     "atomType": "Readme",
                     "name": "README",
                     "x": 716,
-                    "y": 284,
+                    "y": 282,
                     "uniqueID": 606302,
                     "ioValues": [],
                     "readmeText": "This difference Atom subtracts one shape from another. For the opposite behavior check out the intersection atom."
@@ -277,21 +277,21 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule - Rotate and Move",
-                    "x": 813,
-                    "y": 81,
+                    "x": 811,
+                    "y": 85,
                     "uniqueID": 742531,
                     "ioValues": [
                         {
                             "name": "Radius",
-                            "ioValue": 10
+                            "ioValue": 9.9
                         }
                     ]
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 1016,
-                    "y": 161,
+                    "x": 959,
+                    "y": 156,
                     "uniqueID": 140877,
                     "ioValues": [
                         {
@@ -309,20 +309,20 @@
                     ]
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1084,
+                    "y": 223,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Readme",
                     "name": "README",
-                    "x": 1238,
+                    "x": 1105,
                     "y": 123,
                     "uniqueID": 650474,
                     "ioValues": [],
                     "readmeText": "The output of the program defines what will be displayed in the project thumbnail and what shape will be used for displaying changes over time. The output of the project should be connected to the output Atom. Each Molecule comes with one Output atom which cannot be deleted."
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -343,6 +343,12 @@
                     "ap2Name": "radius",
                     "ap1ID": 832924,
                     "ap2ID": 606028
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Radius",
+                    "ap1ID": 832924,
+                    "ap2ID": 742531
                 },
                 {
                     "ap1Name": "geometry",
